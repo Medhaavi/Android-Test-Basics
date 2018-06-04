@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e6bbb1"
+    tools:context="com.brillicaservices.studentmanagementsystem.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student name"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        android:textColor="#111ac9"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the name"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/name"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course"
+                android:layout_marginLeft="50dp"
+                android:textSize="20sp"
+                android:textColor="#111ac9"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter the Course"
+                android:layout_marginLeft="65dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/course"/>
+
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fees"
+                    android:layout_marginLeft="50dp"
+                    android:textSize="20sp"
+                    android:textColor="#111ac9"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter the fees"
+                    android:layout_marginLeft="85dp"
+                    android:inputType="number"
+                    android:id="@+id/fees"/>
+
+            </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="SUBMIT"
+            android:textSize="24sp"
+            android:background="#d4aa14"
+            android:id="@+id/but_1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Display Result"
+            android:layout_weight="2"
+        android:textSize="15sp"
+            android:background="#62de15"
+            android:id="@+id/but_2"
+            />
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+            android:layout_marginRight="15dp"
+        android:text="Display in another Actvity"
+            android:layout_weight="2"
+        android:textSize="15sp"
+            android:background="#7315d4a4"
+            android:id="@+id/but_3"/>
+
+</LinearLayout>
+
+
+
+</LinearLayout>
